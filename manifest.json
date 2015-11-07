@@ -1,12 +1,12 @@
 {
   "manifest_version": 2,
 
-  "name": "Getting started example",
-  "description": "This extension shows a Google Image search result for the current page",
+  "name": "Potato timer",
+  "description": "This extension is for managing your working and break times",
   "version": "1.0",
 
   "browser_action": {
-    "default_icon": "icon.png",
+    "default_icon": "nopotato .png",
     "default_popup": "popup.html"
   },
   "permissions": [
