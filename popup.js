@@ -7,14 +7,20 @@ $(document).ready(function(){
   }, 5000);
   })
 })
-var alerter1 = function() {
-  setInterval(function(){
-    if(confirm("Don't be a potato!") == true) {
-        clearInterval(testFunction);
-      }
+// var alerter1 = function() {
+//   setInterval(function(){
+//     if(confirm("Don't be a potato!") == true) {
+//         clearInterval(testFunction);
+//       }
 
-  }, 5000);
-}
-  var alerter = function() {
-    confirm('yo');
-  }
+//   }, 5000);
+// }
+//   var alerter = function() {
+//     confirm('yo');
+//   }
+
+var alerter = (function() {
+  function setTimeout(function() {
+    alert("start working!")
+  })
+})
