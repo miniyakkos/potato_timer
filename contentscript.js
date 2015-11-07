@@ -1,5 +1,16 @@
-var test_function = function() {
-  console.log("Test")
-}
+// $(document).ready(function(){
+//   $('.start').on('click', testFunction);
+// });
+// var alerter = function() {
+//   setInterval(function(){
+//     if(confirm("Don't be a potato!") == true) {
+//         clearInterval(testFunction);
+//       }
+//       else {
+//         testFunction();
+//       }
+//   }, 5000);
+// }
 
-test_function();
+// document.getElementById('start').addEventListener('click', alert("yo"));
+
