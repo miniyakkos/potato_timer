@@ -2,8 +2,11 @@
   height:50px;
   width: 100px;
   text-align: center;
-  background-color: #E4E4E4;
   font-size: 15px;
+}
+
+body {
+  background-color: #E4E4E4;
 }
 
 #start{
@@ -13,6 +16,7 @@
   font-family: Arial;
   color: #ffffff;
   font-size: 15px;
+  outline: none;
 }
 
 #start:hover{

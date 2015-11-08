@@ -4,6 +4,7 @@ window.onload = function () {
   timer = new CountDownTimer(5),
   timeObj = CountDownTimer.parse(5);
 
+
     format(timeObj.minutes, timeObj.seconds);
 
     timer.onTick(format);
@@ -84,4 +85,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 });
+
+
 
