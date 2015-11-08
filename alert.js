@@ -1,7 +1,7 @@
 setTimeout(function(){
   console.log("1");
 
-  sweetAlert('Congratulations!', 'Your message has been successfully sent', 'success');
+  swal("Time to get work!", "be productive, okay?")
 }, 2000);
 
 

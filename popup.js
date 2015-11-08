@@ -2,7 +2,10 @@ document.addEventListener('DOMContentLoaded', function() {
   document.getElementById('start').addEventListener('click', function(){
     chrome.tabs.executeScript({
       file: 'alert.js'
-    }); 
+    });
+    chrome.tabs.insertCSS({
+      file: 'popup.css'
+    });
   });
 });
 
