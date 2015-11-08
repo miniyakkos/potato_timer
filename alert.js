@@ -1,4 +1,11 @@
 setTimeout(function(){
+
+  confirm("Don't be a potato! Time to work.");
+
+}, 5000);
+
+
+
   console.log("1");
 
   swal("Time to get work!", "be productive, okay?")
@@ -1291,3 +1298,4 @@ exports.colorLuminance = colorLuminance;
   }
 
 })(window, document);
+
