@@ -3,7 +3,7 @@
 
   "name": "Potato timer",
   "description": "This extension is for managing your working and break times",
-  "version": "1.0",
+  "version": "2.0",
 
   "browser_action": {
     "default_icon": "nopotato.png",
