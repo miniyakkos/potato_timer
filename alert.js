@@ -1,4 +1,6 @@
 setTimeout(function(){
-  alert("break end!");
+  confirm("Don't be a potato! Time to work.");
+
 }, 5000);
+
 
