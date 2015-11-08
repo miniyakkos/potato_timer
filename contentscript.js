@@ -1,16 +1,17 @@
-// $(document).ready(function(){
-//   $('.start').on('click', testFunction);
-// });
-// var alerter = function() {
-//   setInterval(function(){
-//     if(confirm("Don't be a potato!") == true) {
-//         clearInterval(testFunction);
-//       }
-//       else {
-//         testFunction();
-//       }
-//   }, 5000);
-// }
-
-// document.getElementById('start').addEventListener('click', alert("yo"));
-
+$(document).ready(function(){
+  var breakChecker = function(){
+    if(confirm("Break time?") == true) {
+      return true
+    } else {
+      return false
+    }
+  }
+  if(breakChecker()) {
+    setTimeout(function() {
+      alert("Break time over!");
+      setTimeout(breakChecker, 1000)
+    }, 2000)
+  } else {
+    setTimeout(breakChecker, 5000)
+  }
+})
